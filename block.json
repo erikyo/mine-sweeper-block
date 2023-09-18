@@ -1,0 +1,9 @@
+{
+  "apiVersion": 2,
+  "name": "codekraft/mineswper",
+  "title": "mineswper",
+  "category": "widgets",
+  "style": "file:./build/style-mineswper.css",
+  "editorScript": "file:./build/mineswper.js",
+  "viewScript": "file:./build/mineswper-front.js"
+}
