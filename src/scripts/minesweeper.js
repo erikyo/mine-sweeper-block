@@ -3,6 +3,7 @@ const components = {
 	num_of_cols: 24,
 	num_of_bombs: 55,
 	bomb: '💣',
+	bombs: [],
 	colors: {
 		1: 'blue',
 		2: 'green',
@@ -20,6 +21,9 @@ let alive = true;
 function startGame() {
 	components.bombs = placeBombs();
 	document.getElementById( 'field' ).appendChild( createTable() );
+	document
+		.getElementById( 'new-game-button' )
+		.addEventListener( 'click', reload );
 }
 
 function placeBombs() {

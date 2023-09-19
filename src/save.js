@@ -3,7 +3,7 @@ const Save = () => {
 		<div id="mineswper">
 			<div id="field" style="margin: 200px auto 0"></div>
 			<div id="lost" style="display: none;">
-				<button id="new-game-button" type="button" onClick="reload()">
+				<button id="new-game-button" type="button">
 					reload
 				</button>
 			</div>
